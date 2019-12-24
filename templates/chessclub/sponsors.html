@@ -1,0 +1,51 @@
+{% extends "chessclub/header.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <div>
+        <p class="margin-top" style="text-align: center">
+            Our sponsors allow us to take part in many activities and for this we are grateful.
+        </p>
+    </div>
+
+    <div>
+        <h1 class="titles">Grandmaster Sponsors</h1>
+
+        <p class="description">
+            <img class="picture" src="{% static "chessclub/img/flow_traders_logo.PNG" %}" alt="citadel_logo" height="120" width="800">
+        </p>
+    </div>
+
+    <div>
+        <h2 class="titles">International Master Sponsors</h2>
+        <p class="description">
+        </p>
+    </div>
+
+    <div>
+        <h3 class="titles">Master Sponsors</h3>
+        <p class="description">
+        </p>
+    </div>
+
+    <div>
+        <h4 class="titles">Expert Sponsors</h4>
+        <p class="description">
+            <img class="picture" src="{% static "chessclub/img/citadel.jpg" %}" alt="citadel_logo" height="120" width="800">
+        </p>
+        <p class="description">
+            <img class="picture" src="{% static "chessclub/img/jane_street.jpeg" %}" alt="jane_street_logo" height="120" width="800">
+        </p>
+    </div>
+
+    <div>
+        <p class="titles description-footer">
+            If you are interested in sponsoring us, read <a target="_blank"
+                                                            href="{% static "chessclub/docs/sponsorship_proposal.pdf" %}">this</a> for
+            more information.
+        </p>
+    </div>
+
+{% endblock %}

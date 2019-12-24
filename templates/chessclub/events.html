@@ -1,0 +1,53 @@
+{% extends "chessclub/header.html" %}
+
+{% block content %}
+    <div>
+        <h2 class="titles margin-top">Weekly Events</h2>
+        <p class="description">
+            We meet weekly on Fridays, play casual blitz, and cater food (usually pizza). We also occasionally host
+            unrated blitz and rapid cash prize tournaments. Subscribe to our <a target="_blank"
+                                                                                href="http://mailman.mit.edu/mailman/listinfo/tech-chess-announce">mailing-list</a>
+            to know the room we are meeting in and the theme of the meeting.
+        </p>
+    </div>
+
+    <div>
+        <h2 class="titles">Annual Events</h2>
+        <p class="description margin-bottom">
+            We usually host 2 USCF rated regular tournaments: one in the fall and one in the spring. If finances permit,
+            we also attend the Pan-American Collegiate and US Amateur Team East. Subscribe to our
+            <a target="_blank" href="http://mailman.mit.edu/mailman/listinfo/tech-chess-announce">mailing-list</a> to
+            know dates, location, and how to register.
+        </p>
+    </div>
+
+    <div id="opens" class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h3>Fall Open</h3>
+
+                <p class="open-text">
+                    A rated USCF tournament usually hosted in early <strong>November</strong> on MIT Campus. Check back
+                    here for exact
+                    date, location, and schedule.
+                </p>
+            </div>
+
+            <div class="col">
+                <h3>Spring Open</h3>
+
+                <p class="open-text">
+                    A rated USCF tournament usually hosted in early <strong>May</strong> on MIT Campus. Check back here
+                    for exact date,
+                    location, and schedule.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="check-back">
+        <h3>Check back here for information on an upcoming event.</h3>
+        {#        <h3><a target="_blank" href="/upcoming_event/">{{ year }} Fall Open</a></h3>#}
+    </div>
+
+{% endblock %}

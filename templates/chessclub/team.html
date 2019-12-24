@@ -1,0 +1,61 @@
+{% extends "chessclub/header.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <div class="container margin-top">
+        <div class="row">
+            <div class="col">
+                <div class="team-member">
+                    <h2>President</h2>
+                    <p>
+                        <img class="team-picture" src="{% static "chessclub/img/richard_yi_face.PNG" %}" alt="Richard_pic" height="120"
+                             width="120"
+                             style="border-radius: 50%">
+                        Richard Yi '20
+                    </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team-member">
+                    <h2>Vice President</h2>
+                    <p>
+                        <img class="team-picture" src="{% static "chessclub/img/tyrone_face.png" %}" alt="Tyrone_pic" height="120"
+                             width="120">
+                        Tyrone Davis III '22
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <div class="team-member">
+                    <h2>Treasurer</h2>
+                    <p>
+                        <img class="team-picture" src="{% static "chessclub/img/jonah_face.jpg" %}" alt="Jonah_pic" height="120" width="120"
+                             style="border-radius: 50%">
+                        Jonah Butler '19
+                    </p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team-member">
+                    <h2>Committee</h2>
+                    <p>
+                        <img class="team-picture" src="{% static "chessclub/img/amir_face.jpg" %}" alt="Amir_pic" height="120" width="120"
+                             style="border-radius: 50%">
+                        Amir Cohen '19
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
